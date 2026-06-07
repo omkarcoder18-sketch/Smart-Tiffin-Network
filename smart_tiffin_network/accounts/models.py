@@ -10,7 +10,7 @@ authorization workflows.
 
 class UserRole(models.Model):
     '''
-    Represents a user role within the system, such as 'customer', 'tiffin_provider', or 'admin'.
+    Represents a user role within the system, such as 'customers', 'tiffin_provider', or 'admin'.
     '''
     user_role_id = models.AutoField(primary_key=True)
     user_role_name = models.CharField(max_length=50, unique=True)
